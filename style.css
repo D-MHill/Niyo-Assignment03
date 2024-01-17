@@ -1,0 +1,66 @@
+body{
+    background-image: url(goldem.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.top{
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.para{
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #fff;
+}
+
+
+.flex-item{
+    width:33%;
+    height:300px;
+    border-radius: 20px;
+    margin-bottom:70px;
+    background-position: center;
+    background-size:cover ;
+   
+}
+.flex-item p{
+    background-color: rgb(15, 14, 14);
+    color:#fff;
+    text-align: center;
+    padding: 2px 2px ;
+    margin-top: 65%;
+    border-radius:5px ;
+}
+
+.parent-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+
+.first{
+    background-image: url("farol.jpg");
+}
+
+.second{
+    background-image: url("elevador.jpg");
+}
+.third{
+    background-image: url("pelourinho.jpg");
+}
+
+.fourth{
+    background-image: url("mercado.jpg");
+}
+.fifth{
+    background-image: url("bomfim.jpg");
+}
+.sixth{
+    background-image: url("rio-vermelho.jpg");
+}
